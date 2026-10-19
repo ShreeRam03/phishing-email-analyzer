@@ -1,0 +1,21 @@
+Return-Path: <news@college.example>
+Received: from mail.college.example (mail.college.example [192.0.2.10])
+	by mx.recipient.example with ESMTPS id def456
+	for <student@recipient.example>; Mon, 19 Oct 2026 08:00:01 +0530
+Authentication-Results: mx.recipient.example;
+	spf=pass smtp.mailfrom=college.example;
+	dkim=pass header.d=college.example;
+	dmarc=pass header.from=college.example
+From: "College Placement Cell" <news@college.example>
+To: student@recipient.example
+Subject: Placement drive schedule for next week
+Date: Mon, 19 Oct 2026 08:00:00 +0530
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hello students,</p>
+<p>The schedule for next week's placement drive is now available on the
+<a href="https://www.college.example/placements">placements page</a>.</p>
+<p>Regards,<br>Placement Cell</p>
+</body></html>

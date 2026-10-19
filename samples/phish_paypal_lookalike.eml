@@ -1,0 +1,35 @@
+Return-Path: <bounce@mailer-xyz.example>
+Received: from mailer-xyz.example (unknown [203.0.113.45])
+	by mx.recipient.example with SMTP id abc123
+	for <student@recipient.example>; Mon, 19 Oct 2026 09:12:01 +0530
+Authentication-Results: mx.recipient.example;
+	spf=fail smtp.mailfrom=mailer-xyz.example;
+	dkim=none;
+	dmarc=fail header.from=paypa1-support.example
+From: "PayPal Security" <security@paypa1-support.example>
+Reply-To: help-desk@freemail-box.example
+To: student@recipient.example
+Subject: Action required: your account is suspended
+Date: Mon, 19 Oct 2026 09:12:00 +0530
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY1"
+
+--BOUNDARY1
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear customer,</p>
+<p>We noticed unusual activity on your account. Your access is <b>suspended</b>.
+Verify your account within 24 hours or it will be closed.</p>
+<p><a href="http://198.51.100.23/login/paypal/verify.php">https://www.paypal.com/signin</a></p>
+<p>Or use this link: <a href="https://bit.ly/3xYzAbC">Restore access</a></p>
+</body></html>
+
+--BOUNDARY1
+Content-Type: application/octet-stream; name="Invoice_Oct2026.pdf.exe"
+Content-Disposition: attachment; filename="Invoice_Oct2026.pdf.exe"
+Content-Transfer-Encoding: base64
+
+VGhpcyBpcyBhIGhhcm1sZXNzIHRlc3QgZmlsZSwgbm90IHJlYWwgbWFsd2FyZS4K
+
+--BOUNDARY1--
